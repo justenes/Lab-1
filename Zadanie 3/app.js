@@ -1,7 +1,6 @@
-const studentModule = require(.studentModule);
+const student = require("./student");
 
-const fullName = studentModule.getStudentFullName();
-const studentId = studentModule.getStudentId();
+const FULLNAME = student.getStudentFullName();
+const studentID = student.getStudentId();
 
-const message = `Moje imie ${fullName}. Numer albumu ${studentId}`;
-console.log(message);
+console.log(`My name is ${FULLNAME}. My student ID is ${STUDENT_ID}`);
